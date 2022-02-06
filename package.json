@@ -1,0 +1,30 @@
+{
+  "name": "josephbrown-homepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Joseph C Brown<hi@josephbrown.io>",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.6.0",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "description": "Joseph's Website",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.10",
+    "prettier": "^2.5.1"
+  }
+}
