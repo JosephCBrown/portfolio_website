@@ -69,13 +69,12 @@ const Page = () => {
           <BioSection>
           <BioYear>2016</BioYear> 
           Completed second Master&apos;s Program (Master of Science Business Analytics) in the Graduate School of
-          Economics and Business Administration (SEBA)  at Saint Mary's College of California
+          Economics and Business Administration (SEBA)  at Saint Mary's College of California.
         </BioSection>
         
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed Backend develo
-          Works as a freelance
+          Completed Back End,SQL,& DevOps Developer with Python Bootcamp
         </BioSection>
 
         <BioSection>
