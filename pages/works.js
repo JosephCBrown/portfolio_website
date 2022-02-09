@@ -14,12 +14,12 @@ const Works = () => (
     <Layout title="Works">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Projects- page under construction, please see my github for work
         </Heading>
-  
+{/*   
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="inkdrop" title="Inkdrop"thumbnail={undefined}>
+            <WorkGridItem id="inkdrop" title="Inkdrop"thumbnail={src=undefined}>
               A Markdown note-taking app with 100+ plugins, cross-platform and
               encrypted data sync support
             </WorkGridItem>
@@ -28,7 +28,7 @@ const Works = () => (
             <WorkGridItem
               id="walknote"
               title="walknote"
-              thumbnail={undefined}
+              thumbnail={src}
             >
               Music recommendation app for iOS
             </WorkGridItem>
@@ -38,19 +38,19 @@ const Works = () => (
             <WorkGridItem
               id="fourpainters"
               title="The four painters"
-              thumbnail={undefined}
+              thumbnail={src}
             >
               A video work generated with deep learning, imitating famous four
               painters like Van Gogh
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
-            <WorkGridItem id="menkiki" thumbnail={undefined} title="Menkiki">
+            <WorkGridItem id="menkiki" thumbnail={src} title="Menkiki">
               An app that suggests ramen(noodle) shops based on a given photo of
               the ramen you want to eat
             </WorkGridItem>
           </Section>
-        </SimpleGrid>
+        </SimpleGrid> */}
       </Container>
     </Layout>
   )
