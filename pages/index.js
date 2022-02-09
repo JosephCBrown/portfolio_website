@@ -4,6 +4,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear} from '../components/bio'
+
 const Page = () => {
     return (
         <Container>
@@ -90,18 +91,10 @@ const Page = () => {
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          My Intrests 
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Learning, Technology, Gaming, Blockchain, Artificial Intelligence, Machine Learning, Teaching
         </Paragraph>
       </Section>   
         </Container>
@@ -109,3 +102,4 @@ const Page = () => {
 }
 
 export default Page
+//export {getServerSideProps} from '../components/chakra'
