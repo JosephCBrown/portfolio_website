@@ -21,10 +21,10 @@ const Logo = () => {
     const blockImg = `/images/JBLogo${useColorModeValue('','-dark')}.png`
 
     return (
-        <Link href="/">
+        <Link href="/" scroll={false}>
             <a>
                 <LogoBox>
-                    <Image src ={blockImg} width={20} height={20} alt="logo"/>
+                    <Image src ={blockImg} width={20} height={20} alt="logo" />
                 <Text
                 color={useColorModeValue('gray.800', 'whiteAlpha.900')} 
                 fontFamily= 'M PLUS Rounded 1c'
