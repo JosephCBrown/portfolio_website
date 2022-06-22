@@ -17,6 +17,10 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoLinkedin } from 'react-icons/io5'
+import { IoBuild } from 'react-icons/io5'
+import { IoDesktop } from 'react-icons/io5'
+import { IoHardwareChip } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
     const active = path === href
@@ -71,10 +75,22 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
             flexGrow={1}
             mt={{ base: 4, md: 0 }}
           >
-            <LinkItem href="/works" path={path}>
-              Works
+            <LinkItem href="/projects" path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+            >
+              <IoBuild />
+              Projects
             </LinkItem>
-            <LinkItem href="/posts" path={path}>
+            <LinkItem href="/posts" path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+            >
+            <IoDesktop />
               Posts
             </LinkItem>
             <LinkItem
@@ -87,7 +103,29 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
               pl={2}
             >
               <IoLogoGithub />
-              Source
+              Github
+            </LinkItem>
+            
+            <LinkItem
+              _target="_blank"
+              href="https://www.linkedin.com/in/joseph-c-brown/"
+              path={path}
+              display="inline-flex"
+              alignItems="center"
+              style={{ gap: 4 }}
+              pl={2}
+            >
+              <IoLogoLinkedin/>
+              LinkedIn
+            </LinkItem>
+            <LinkItem href="/tools" path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+            >
+              <IoHardwareChip />
+              Tools/Equipment
             </LinkItem>
           </Stack>
   
@@ -106,10 +144,13 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
+                </NextLink>
+                <NextLink href="/posts" passHref>
+                  <MenuItem as={Link}>Tools/Equipment</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
