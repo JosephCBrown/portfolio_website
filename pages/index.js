@@ -1,13 +1,13 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, useColorModeValue,Link,Button,List,ListItem,SimpleGrid,chakra } from '@chakra-ui/react'
+import { Container, Box, Heading, useColorModeValue,Link,Button,List,ListItem,chakra } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear} from '../components/bio'
 import Layout from '../components/layouts/article'
 /*import Section from '../components/section'*/
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub,IoLogoTiktok,IoBook,IoLogoMedium } from 'react-icons/io5'
+/*import { GridItem } from '../components/grid-item'*/
+import {IoLogoGithub,IoLogoTiktok,IoLogoMedium } from 'react-icons/io5'
 /*import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'*/
 import Image from 'next/image' 
@@ -29,7 +29,7 @@ const Page = () => {
                 <Heading as="h2" variant="page-title">
                     Joseph Brown
                 </Heading>
-                <p>Digital Constructor (EMBA,MS Analytics / Developer / Avid Learner ) </p>  
+                <p>Digital Constructor ( Scholar / Inventor / Developer ) </p>  
             </Box>
             <Box
           flexShrink={0}
@@ -52,8 +52,8 @@ const Page = () => {
               alt="Profile image"
               borderRadius="full"
               width="100%"
-              height="100%"
-            />
+              height="120%"
+              />
           </Box>     
         </Box>  
       </Box> 
@@ -88,12 +88,13 @@ const Page = () => {
         <BioSection>
           <BioYear>2015</BioYear>
           Completed first Master&apos;s Program (Executive Master of Business Administration) in the Graduate School of
-          Economics and Business Administration (SEBA)  at Saint Mary's College of California
+          Economics and Business Administration (SEBA) at Saint Mary&apos;s College of California
           </BioSection>
           <BioSection>
+            
           <BioYear>2016</BioYear> 
           Completed second Master&apos;s Program (Master of Science Business Analytics) in the Graduate School of
-          Economics and Business Administration (SEBA)  at Saint Mary's College of California.
+          Economics and Business Administration (SEBA) at Saint Mary&apos;s College of California.
         </BioSection>
         
         <BioSection>
@@ -219,3 +220,5 @@ const Page = () => {
 
 export default Page
 export {getServerSideProps} from '../components/chakra'
+
+/*Avid Learner/ EMBA,MS Analytics*/

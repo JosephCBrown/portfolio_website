@@ -143,13 +143,13 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="/tools" passHref>
                   <MenuItem as={Link}>Tools/Equipment</MenuItem>
                 </NextLink>
                 <MenuItem
