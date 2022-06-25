@@ -1,7 +1,7 @@
-import { Container, Heading, Box, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, Box} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+// import Section from '../components/section'
+// import { GridItem } from '../components/grid-item'
 
 // incase I want to go back to smaller headings  <Heading as="h3" fontSize={20} mb={4}>
 // My Posts
