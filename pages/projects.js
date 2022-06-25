@@ -1,4 +1,4 @@
-import { Container, Heading} from '@chakra-ui/react'
+import { Box,Container, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 // import Section from '../components/section'
 // import { WorkGridItem } from '../components/grid-item'
@@ -10,15 +10,22 @@ import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
  */
-/*"page now called projects"*/
 
+/*"page now called projects previously called work or works"*/
+{/* <Heading as="h3" size="xl" fontSize={20} mb={4}>
+Projects
+
+</Heading> */}
 const Projects = () => (
     <Layout title="Projects">
-      <Container>
-        <Heading as="h3" fontSize={20} mb={4}>
-          Projects- Page under construction, please see my github for work
+      <Container >
+        <Heading as="h3" size="xl">
+          Projects
           
         </Heading>
+            <Box textAlign="center" py={10} px={6}>
+                This page is under construction and will house projects I am currently working on. Please see my github for project history.
+            </Box>
 {/*
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
@@ -54,6 +61,7 @@ const Projects = () => (
             </WorkGridItem>
           </Section>
         </SimpleGrid> */}
+
       </Container>
     </Layout>
   )

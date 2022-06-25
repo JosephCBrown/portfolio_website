@@ -20,7 +20,9 @@ const Page = () => {
     return (
       <Layout>
         <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center"
+            css={{backdropFilter: 'blur(10px)'}}
+            >
                 Hello, I&apos;m a Backend developer based in the Bay Area!
             </Box>
             
