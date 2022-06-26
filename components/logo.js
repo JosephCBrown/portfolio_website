@@ -21,7 +21,7 @@ const LogoBox = styled.span`
   }
 `
 
-const Logo = (props) => {
+const Logo = () => {
     const blockImg = `/images/JBLogo-alt${useColorModeValue('', '-dark')}.png`
 
     return (
