@@ -22,7 +22,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const blockImg = `/images/JBLogo-alt${useColorModeValue('', '-dark')}.png`
+    const blockImg = "/images/JBLogo-alt.png"
 
     return (
         <Link href="/" scroll={false}>

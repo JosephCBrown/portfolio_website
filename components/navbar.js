@@ -29,7 +29,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
       <NextLink href={href} passHref>
         <Link
           p={2}
-          bg={active ? 'grassTeal' : undefined}
+          bg={active ? 'grassPurple' : undefined}
           color={active ? '#202023' : inactiveColor}
           _target={_target}
           {...props}
@@ -148,6 +148,12 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
+                </NextLink>
+                <NextLink href="https://github.com/JosephCBrown" passHref>
+                  <MenuItem as={Link}>Github</MenuItem>
+                </NextLink>
+                <NextLink href="https://www.linkedin.com/in/joseph-c-brown/" passHref>
+                  <MenuItem as={Link}>Linkedin</MenuItem>
                 </NextLink>
                 <NextLink href="/tools" passHref>
                   <MenuItem as={Link}>Tools/Equipment</MenuItem>
