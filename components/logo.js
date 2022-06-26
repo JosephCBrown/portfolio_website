@@ -4,40 +4,43 @@ import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-    font-weight: bold;
-    font-size: 18px;
-    display: inline-flex;
-    align-items: center;
-    height: 30px;
-    line-height: 20px;
-    padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  line-height: 20px;
+  padding: 10px;
 
-    &:hover img{
-        transform: rotate(20deg);
-    }
+  img {
+    transition: 200ms ease;
+  }
+
+  &:hover img {
+    transform: rotate(20deg);
+  }
 `
 
 const Logo = () => {
-    const blockImg =`/images/JBLogo-alt${useColorModeValue('','-dark')}.png`
+    const blockImg = `/images/JBLogo-alt${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/" scroll={false}>
             <a>
                 <LogoBox>
-                    <Image src ={blockImg} width={20} height={20} alt="logo" />
-                <Text
-                color={useColorModeValue('gray.800', 'whiteAlpha.900')} 
-                fontFamily= 'M PLUS Rounded 1c'
-                fontWeight= "bold"
-                ml={3}
-                >
-                Joseph Brown
-                </Text>
+                    <Image src={blockImg} width={22} height={22} alt="logo" />
+                    <Text
+                    color={useColorModeValue('gray.800', 'whiteAlpha.900')} 
+                    fontFamily= 'M PLUS Rounded 1c'
+                    fontWeight= "bold"
+                    ml={3}
+                    >
+                        Joseph Brown
+                    </Text>
                 </LogoBox>
             </a>
         </Link>
     )
-
 }
 
 export default Logo

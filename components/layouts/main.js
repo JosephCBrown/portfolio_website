@@ -12,7 +12,7 @@ const Main = ({children, router}) => {
                 <meta name="description" content="Joseph's homepage" />
                 <meta name="author" content="Joseph Brown" />
                 <meta name="author" content="Lyfe Unlimited" />
-                <link rel="apple-touch-icon" href="JBLogo-alt.png" />
+                <link rel="apple-touch-icon" href="apple-touch-icon.png" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <meta property="og:site_name" content="Joseph Brown" />
                 <meta name="og:title" content="Joseph Brown" />
