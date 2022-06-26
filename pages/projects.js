@@ -24,7 +24,7 @@ const Projects = () => (
           
         </Heading>
             <Box textAlign="center" py={10} px={6}>
-                This page is under construction and will house projects I am currently working on. Please see my github for project history.
+                This page is under construction and will house projects I am currently working on. Please see my github for project history!
             </Box>
 {/*
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
