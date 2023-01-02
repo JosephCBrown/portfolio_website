@@ -14,11 +14,10 @@ const Analytics = () => (
           JCB- Analytics
 
         </Heading>
-      <script type='module' src='https://10az.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://10az.online.tableau.com/t/jcbanalytics/views/Contract_Dashboard_Final/DepartmentofCorrectionsRehabDashboard' width='1724' height='1764' hide-tabs toolbar='bottom' ></tableau-viz>
-          
-      {/*    <Box textAlign="center" py={10} px={6}>
+            
+             <Box textAlign="center" py={10} px={6}>
             <script type='module' src='https://10az.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://10az.online.tableau.com/t/jcbanalytics/views/Contract_Dashboard_Final/DepartmentofCorrectionsRehabDashboard' width='1724' height='1764' hide-tabs toolbar='bottom' ></tableau-viz>
-            </Box>  */}
+            </Box>
            
         </Container>
   </Layout>
