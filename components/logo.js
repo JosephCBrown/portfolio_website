@@ -22,13 +22,13 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    
+  const blockImg = `/images/jblogo-alt${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/" scroll={false}>
             <a>
                 <LogoBox>
-                  <Image src="/images/jblogo-alt.png" width={23} height={23} alt="logo" /> 
+                  <Image alt="logo" src={blockImg} width={20} height={20}  /> 
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')} 
                     fontFamily= 'M PLUS Rounded 1c'
@@ -46,3 +46,5 @@ const Logo = () => {
 export default Logo
 
 // const blockImg = `/images/jblogo-alt${useColorModeValue('', '-dark')}.png`
+
+//<Image alt="logo" src="/images/jblogo-alt.png" width={20} height={20}  />

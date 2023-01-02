@@ -214,6 +214,7 @@ const LogoBox = (_emotion_styled__WEBPACK_IMPORTED_MODULE_4___default().span)`
   }
 `;
 const Logo = ()=>{
+    const blockImg = `/images/jblogo-alt${(0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.useColorModeValue)("", "-dark")}.png`;
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
         href: "/",
         scroll: false,
@@ -221,10 +222,10 @@ const Logo = ()=>{
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(LogoBox, {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                        src: "/images/jblogo-alt.png",
-                        width: 23,
-                        height: 23,
-                        alt: "logo"
+                        alt: "logo",
+                        src: blockImg,
+                        width: 20,
+                        height: 20
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Text, {
                         color: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.useColorModeValue)("gray.800", "whiteAlpha.900"),
