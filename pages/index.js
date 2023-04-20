@@ -7,10 +7,11 @@ import { BioSection, BioYear} from '../components/bio'
 import Layout from '../components/layouts/article'
 /*import Section from '../components/section'*/
 /*import { GridItem } from '../components/grid-item'*/
-import {IoLogoGithub,IoLogoTiktok,IoLogoMedium } from 'react-icons/io5'
+import {IoLogoGithub,IoLogoTiktok,IoLogoMedium,IoNavigate } from 'react-icons/io5'
 /*import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'*/
-import Image from 'next/image' 
+import Image from 'next/image'
+
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -23,7 +24,7 @@ const Page = () => {
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center"
             css={{backdropFilter: 'blur(10px)'}}
             >
-                Hello, I&apos;m a Backend developer based in the Bay Area!
+                Hello, I tell stories with data and am based in the Bay Area!
             </Box>
             
             <Box display={{md:'flex'}}>
@@ -144,17 +145,17 @@ const Page = () => {
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+          /<ListItem>
+            <Link href="https://nextlvl.ai/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="purple"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoNavigate />}
               >
-                @inkdrop_app (English)
+                Level Up AI (AI Web App I created!)
               </Button>
-            </Link>
-          </ListItem> */}
+            </Link> 
+          </ListItem>
           {/* <ListItem>
             <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button

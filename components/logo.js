@@ -27,7 +27,7 @@ const Logo = () => {
         <Link href="/" scroll={false}>
             <a>
                 <LogoBox>
-                  <Image src="/./images/jblogo-alt.PNG" alt="logo" width={20} height={20}  /> 
+                  <Image src={"/images/icondark.svg"} alt="logo" width={20} height={20} /> 
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')} 
                     fontFamily= 'M PLUS Rounded 1c'
